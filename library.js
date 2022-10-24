@@ -1,12 +1,12 @@
 //  #######################################################################################################
-//  PURPOSE		: Universal 'all-in-one' function that unites the DOM-functions
+//  PURPOSE     : Universal 'all-in-one' function that unites the DOM-functions
 //                => document.getElementById
 //                => document.getElementsByTagName
 //                => document.getElementsByClassName
 //                => document.getElementsByName
 //                => document.querySelectorAll
 //
-//  PARAMETER 	: selector 	= ID | classname | .class | [type] | >sub-element or <tag>
+//  PARAMETER   : selector 	= ID | classname | .class | [type] | >sub-element or <tag>
 //                            if ID is not found as a valid selector, search continues 
 //                            in the order: HTML-tags ==> classNames ===> names
 //                            So if there is no ID matching to 'selector' but a valid
