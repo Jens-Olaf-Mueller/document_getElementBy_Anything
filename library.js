@@ -5,7 +5,7 @@
 //                => document.getElementsByClassName
 //                => document.getElementsByName
 //                => document.querySelectorAll
-//   			  
+//
 //  PARAMETER 	: selector 	= ID | classname | .class | [type] | >sub-element or <tag>
 //                            if ID is not found as a valid selector, search continues 
 //                            in the order: HTML-tags ==> classNames ===> names
@@ -16,7 +16,7 @@
 //              : '~' or ':last-child'  =   returns the last child of the nodelist
 //              : 0                     =   returns the first child of the nodelist
 //              : number | numeric string = child[number] will be returned
-//  			
+//
 //  RETURNS 	: a single element (if selector is a valid ID or child is specified)
 //                in all other cases a zero-based nodelist or HTML-collection,
 //                matching the selector-parameter
@@ -96,5 +96,4 @@ function isNumeric(expression, strAllowed) {
     } else {
         return Number.isFinite(parseFloat(expression)); 
     }
-    
 }
